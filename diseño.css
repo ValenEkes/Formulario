@@ -1,0 +1,36 @@
+p{
+ position: relative;
+ left: 47%;   
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 25px;   
+}
+div,p{
+    position: relative;
+    right:5%
+}
+.cuadrado{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: aliceblue;
+    
+
+}
+input{
+ width: 30%;
+ height: auto;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ left: 40%;
+ border: 2px solid black;
+}
+button{
+position: relative;
+left: 52%;
+}
+button:hover{
+color: rgb(163, 40, 40);
+background-color: rgb(145, 17, 17);
+}
+body{
+    background-color: rgb(56, 119, 236);
+}

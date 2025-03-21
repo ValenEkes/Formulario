@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="formulario"  class="cuadrado">  
+        <p>Nombre completo</p>
+        <input type="text" name="username" id="nombre" />
+        <div>
+        <p id="Incorrecto" class="error"></p>
+        </div>
+        <p>Escribe tu mail</p>
+        <input type="email" name="mail" id="Mail" />
+        <p id="ErrorMail" class="error"></p>
+        <p>Escribe tu contraseña</p>
+        <input type="password" name="contraseña" id="Contrasena" />
+        <div>
+        <p id="ErrorCaracter" class="error"></p>
+        <p id="ErrorNum" class="error"></p>
+        <p id="ErrorLetra" class="error"></p>
+        </div>
+        <p>Confirmar contraseña</p>
+        <input type="password" name="contraseña" id="contrasenaBien"/>
+        <div>
+        <p id="ErrorContrasena" class="error"></p>
+        <p id="Enviado" class="text"></p> 
+        </div>
+        <button type="submit">Validar</button> 
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>
